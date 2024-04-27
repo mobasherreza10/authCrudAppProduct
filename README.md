@@ -18,7 +18,7 @@ To get a local copy up and running follow these simple steps.
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/auth-crud-app.git
+git clone https://github.com/mobasherreza10/authCrudAppProduct.git
 Navigate into the project directory
 bash
 Copy code
