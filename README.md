@@ -31,6 +31,11 @@ Start JSON Server to serve as mock backend
 bash
 Copy code
 json-server --watch db.json
+This modification clarifies that JSON Server will run on port 3000 by default when starting it.
+Like this:   Resources
+  http://localhost:3000/products
+  Home
+  http://localhost:3000
 Start the Angular development server
 bash
 Copy code
