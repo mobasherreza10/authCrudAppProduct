@@ -1,0 +1,12 @@
+{
+	
+	 "products": [
+    { "id": "1", "name": "shirt", "description": "good", "price":200,"images":"1.jpg","brand":"Gucci","tag":"new" },
+  { "id": "2", "name": "pant", "description": "good", "price":200,"images":"1.jpg","brand":"Gucci","tag":"new" },
+    { "id": "3", "name": "Tshirt", "description": "good", "price":200,"images":"1.jpg","brand":"Gucci","tag":"new" },
+  { "id": "4", "name": "Watch", "description": "good", "price":200,"images":"1.jpg","brand":"Gucci","tag":"new" },
+    { "id": "5", "name": "Shoe", "description": "good", "price":200,"images":"1.jpg","brand":"Gucci","tag":"new" },
+  { "id": "6", "name": "Formal", "description": "good", "price":200,"images":"1.jpg","brand":"Gucci","tag":"new" },
+  ]
+  
+}

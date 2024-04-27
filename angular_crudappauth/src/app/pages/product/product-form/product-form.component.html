@@ -1,0 +1,54 @@
+<div class="container">
+    <div class="row">
+
+        <h2>Update Product</h2>
+
+        <div class="container">
+            <div *ngIf="message" class="alert alert-success alert-dismissible fade show" role="alert">
+                <strong>Great!</strong> Updated the product successfully!
+                <button (click)="removeMessage()" type="button" data-dismiss="alert" aria-label="Close"> X
+
+                </button>
+            </div>
+
+            <div class="row">
+                <div class="col-md-7">
+                    <form [formGroup]="editProduct" (ngSubmit)="UpdateData()">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name:</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Name"
+                                formControlName="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="description" class="form-label">Description:</label>
+                            <input type="text" class="form-control" id="description" name="description"
+                                placeholder="Enter description" formControlName="description" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="price" class="form-label">Price:</label>
+                            <input type="number" class="form-control" id="price" name="price" placeholder="Enter price"
+                                formControlName="price" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="images" class="form-label">images:</label>
+                            <input type="text" class="form-control" id="images" name="images" formControlName="images"
+                                placeholder="Enter images" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="brand" class="form-label">brand:</label>
+                            <input type="text" class="form-control" id="brand" name="brand" formControlName="brand"
+                                placeholder="Enter brand" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="tag" class="form-label">tag:</label>
+                            <input type="text" class="form-control" id="tag" name="tag" formControlName="tag"
+                                placeholder="Enter tag" required>
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

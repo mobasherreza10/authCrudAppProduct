@@ -1,0 +1,35 @@
+<button class="btn btn-primary" (click)="addProduct()">Add Product</button>
+<h1>Product List:</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Images</th>
+            <th>Brand</th>
+            <th>Tag</th>
+            <th>Action</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let product of productData; let i = index">
+            <td>{{ i + 1 }}</td>
+            <td>{{ product.name }}</td>
+            <td>{{ product.description }}</td>
+            <td>{{ product.price }}</td>
+            <td>{{ product.images }}</td>
+            <td>{{ product.brand }}</td>
+            <td>{{ product.tag }}</td>
+            <td>
+                <button type="button" class="btn btn-danger" (click)="deleteProduct(product.id)">Delete</button> &nbsp;
+                <a type="button" class="btn btn-info" routerLink="/edit/{{ product.id }}">Edit</a>
+
+            </td>
+
+        </tr>
+    </tbody>
+</table>
