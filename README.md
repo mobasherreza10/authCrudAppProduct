@@ -13,14 +13,12 @@ To get a local copy up and running follow these simple steps.
 
 #### Sign Up:
 1. Navigate to the application URL (e.g., [http://localhost:4200/](http://localhost:4200/)).
-2. Click on the "Sign Up" link.
-3. Fill in the required information, including email and password.
-4. Click on the "Sign Up" button.
+2. Fill in the required information, including email and password.
+3. Click on the "Sign Up" button.
 
 #### Logging In:
-1. After signing up, you'll be redirected to the login page automatically.
-2. Enter your email and password.
-3. Click on the "Login" button.
+1. Enter your email and password.
+2. Click on the "Login" button.
 
 ### Dashboard Page
 
@@ -55,9 +53,6 @@ To get a local copy up and running follow these simple steps.
 
 ### Conclusion
 By following these steps, you'll be able to effectively use the authentication system with multi-step form and CRUD operations implemented using Angular. Remember to explore other features and functionalities provided by the application as needed.
-
-### Prerequisites
-
 - Node.js and npm installed on your machine
 - Angular CLI installed globally (`npm install -g @angular/cli`)
 - JSON Server installed globally (`npm install -g json-server`)
